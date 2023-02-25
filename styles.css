@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: BabyDoll;
+	src: url(BabyDoll.otf);
+}
+body.home {
+	background-color: #E6998d;
+}
+body.main {
+	background-image: url(./images/background.jpg);
+}
+#landing{
+	background: url(./images/logo.PNG);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 500px;
+	margin-top: 85px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 40px;
+}
+button{
+	background-color: lightgrey;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	font-family: BabyDoll;
+	font-size: 18pt;
+}
+.buttons{
+	display: flex;
+	justify-content: space-evenly;
+}
+button:hover{
+	color: #E6998D;
+}
+.navcontainer{
+	display: inline-flex;
+	flex-direction: row;
+	column-gap: 65px;
+	align-items: center;
+}
+ul{
+	list-style-type: none;
+	background-color: #E6998D;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+li{
+	font-family: BabyDoll;
+	font-size: 26pt;
+}
+li a {
+	text-decoration: none;
+}
+a:hover{
+	color: #66443E;
+}
+a:visited{
+	color: black;
+}
+h1{
+	font-size: 42pt;
+	font-family: BabyDoll;
+}
+p{
+	font-family: BabyDoll;
+	font-size: 26pt;
+}
+p.gallery{
+	font-size: 19pt;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.gallerycontainer{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.zuckerberg{
+	transform: rotate(2deg);
+}
+.bezos{
+	transform: rotate(-2deg);
+}
+.koch{
+	transform: rotate(-2deg);
+}
+.knight{
+	transform: rotate(2deg);
+}
+.musk{
+	transform: rotate(2deg);
+}
+#BTR{
+	font-family: BabyDoll;
+	font-size: 32pt;
+}
